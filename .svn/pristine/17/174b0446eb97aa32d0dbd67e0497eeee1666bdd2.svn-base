@@ -1,0 +1,75 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+input{
+    outline:none;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: #e3e9ec;
+    color: black;
+}
+.inputstyle {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0px solid black;
+    background: white;
+    color: black;
+}
+    .inputstyle:focus {
+        outline: none;
+        border: none ;
+        border-bottom: 1px solid black;
+        background:
+    }
+textarea {
+    margin-left: 1%;
+}
+.formList {
+    margin: 1%;
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    background:white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+textarea {
+    margin: 1%;
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    background: white;
+}
+fieldset {
+    margin: 1%;
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.TopHeading{
+    margin:1%;
+}

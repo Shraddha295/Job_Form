@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    <link href="~/css/stylesheet.css" rel="stylesheet" />
+}
+
+<div> 
+    <nav>
+        <h3 class="TopHeading">JOB/INTERNSHIP/TRAINING REGISTRATION FORM</h3>
+    </nav>
+    <form>
+        
+        <div class="formList">
+            <h5>Name</h5>
+            <input class="inputstyle" type="text" id="name" placeholder="Your Name" required />
+        </div>
+        <div class="formList">
+            <h5>Email</h5>
+            <input class="inputstyle" type="email" id="email" placeholder="Email Id" required />
+        </div>
+        <div class="formList">
+            <h5>Phone Number</h5>
+            <input class="inputstyle" type="number" id="phn_no" placeholder="Mobile Number" required />
+        </div>
+        <div class="formList">
+            <h5>Address</h5>
+            <textarea id="Address" rows="4" placeholder="Your Current Address"></textarea>
+        </div>
+        <fieldset>
+            <div>
+                <input type="radio" id="in1" name="form" value="in1" >
+                <label for="in1">TRAINING</label>
+            </div>
+
+            <div>
+                <input type="radio" id="in2" name="form" value="in2">
+                <label for="in2">INTERNSHIP</label>
+            </div>
+
+            <div>
+                <input type="radio" id="in3" name="form" value="in3">
+                 <label for="in3">JOB</label>
+            </div>
+        </fieldset>
+    </form>
+</div>

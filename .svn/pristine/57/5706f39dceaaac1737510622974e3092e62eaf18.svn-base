@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: #06283D;
+    color:white;
+}
+.inputstyle {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    background: #256D85;
+    color:white;
+
+} 
+.inputstyle:hover{
+    border:none;
+
+}
+textarea {
+    margin-left: 1%;
+}
+.formList {
+    margin: 1%;
+    align-content: center;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+}
+textarea{
+    margin: 1%;
+    align-content: center;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+}
+fieldset {
+    margin: 1%;
+    align-content: center;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+}
